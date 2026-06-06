@@ -1,0 +1,8 @@
+{
+  "build": {
+    "command": "echo 'Build not needed for static files'",
+    "outputDirectory": "public",
+    "installCommand": "echo 'No install needed'"
+  },
+  "public": true
+}
