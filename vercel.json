@@ -1,8 +1,6 @@
 {
-  "build": {
-    "command": "echo 'Build not needed for static files'",
-    "outputDirectory": "public",
-    "installCommand": "echo 'No install needed'"
-  },
-  "public": true
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install",
+  "framework": null
 }
